@@ -1,6 +1,6 @@
-let num1 = 0;
-let num2 = 0;
-let operator;
+let n1 = 0;
+let n2 = 0;
+let operator = '';
 
 const add = function(n1, n2) {
     return n1 + n2;
@@ -28,3 +28,16 @@ const operate = function(n1, n2, operator) {
     if (operator == '/') divide(n1, n2);
 
 }
+
+const btn = document.getElementsByClassName('btn');
+const display = document.getElementById('display');
+const addition = document.getElementById('add');
+const subtraction = document.getElementById('subtract');
+const multiplication = document.getElementById('multiply');
+const division = document.getElementById('divide');
+const equals = document.getElementById('equals');
+const clear = document.getElementById('clear');
+
+btn.addEventListener('click', event => {
+    
+});
